@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="424.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MiniIssueView.MiniIssueViewController">
+   <effect>
+      <InnerShadow blurType="TWO_PASS_BOX" />
+   </effect>
+   <children>
+      <Label alignment="CENTER" layoutX="233.0" layoutY="12.0" prefHeight="27.0" prefWidth="208.0" text="Select Issue Entry">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Region fx:id="region" layoutX="158.0" layoutY="48.0" prefHeight="49.0" prefWidth="382.0" style="-fx-background-color: dadada; -fx-background-radius: 45;" />
+      <Label layoutX="213.0" layoutY="54.0" text="Issue Date" />
+      <JFXDatePicker fx:id="searchDateValue" defaultColor="#212121" editable="false" layoutX="212.0" layoutY="64.0" prefHeight="25.0" prefWidth="224.0" />
+      <JFXButton fx:id="searchDate" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="448.0" layoutY="61.0" onAction="#searchDate" prefHeight="25.0" prefWidth="25.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 5;" text="INSERT" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="SEARCH" size="20" />
+         </graphic>
+      </JFXButton>
+      <TableView fx:id="tableIssue" layoutX="25.0" layoutY="110.0" prefHeight="288.0" prefWidth="625.0" stylesheets="@TableStyle.css">
+        <columns>
+          <TableColumn fx:id="iD" prefWidth="60.0" sortable="false" style="-fx-alignment: Center;" text="Issue ID" />
+          <TableColumn fx:id="issueDate" prefWidth="100.0" style="-fx-alignment: Center;" text="Issue Date" />
+            <TableColumn fx:id="issueTill" prefWidth="100.0" style="-fx-alignment: Center;" text="Issue Till" />
+            <TableColumn fx:id="stdID" prefWidth="70.0" style="-fx-alignment: Center;" text="Student ID" />
+            <TableColumn fx:id="bookName" prefWidth="231.0" text="Book Name" />
+            <TableColumn fx:id="staffID" minWidth="0.0" prefWidth="62.0" style="-fx-alignment: Center;" text="Staff ID" />
+        </columns>
+      </TableView>
+      <Label layoutX="26.0" layoutY="400.0" text="Note: Double Click to Select Issue Entry" textFill="#039be5" />
+      <JFXButton fx:id="closeButton" contentDisplay="GRAPHIC_ONLY" layoutX="638.0" layoutY="9.0" onAction="#close" prefHeight="27.0" prefWidth="27.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="Close">
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="POWER_OFF" size="14" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="minButton" contentDisplay="GRAPHIC_ONLY" layoutX="605.0" layoutY="9.0" onAction="#minimize" prefHeight="27.0" prefWidth="27.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="Minimize">
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="MINUS_CIRCLE" size="14" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

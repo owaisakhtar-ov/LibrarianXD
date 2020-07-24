@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="424.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MiniBookView.MiniBookViewController">
+   <children>
+      <Region fx:id="region" layoutX="147.0" layoutY="44.0" prefHeight="49.0" prefWidth="382.0" style="-fx-background-color: dadada; -fx-background-radius: 45;" />
+      <Label alignment="CENTER" layoutX="234.0" layoutY="8.0" prefHeight="27.0" prefWidth="208.0" text="Select Book">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <JFXTextField fx:id="searchNameText" focusColor="#212121" labelFloat="true" layoutX="212.0" layoutY="58.0" prefHeight="25.0" prefWidth="196.0" promptText="Search by Name" />
+      <JFXButton fx:id="searchName" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="426.0" layoutY="56.0" onAction="#searchName" prefHeight="25.0" prefWidth="25.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 5;" text="INSERT" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="SEARCH" size="20" />
+         </graphic>
+      </JFXButton>
+      <TableView fx:id="tableBook" layoutX="25.0" layoutY="103.0" prefHeight="288.0" prefWidth="625.0" stylesheets="@TableStyle.css">
+        <columns>
+          <TableColumn fx:id="iD" prefWidth="49.0" sortable="false" style="-fx-alignment: center;" text="ID" />
+          <TableColumn fx:id="name" prefWidth="252.0" text="Name" />
+            <TableColumn fx:id="writer" prefWidth="164.0" text="Writer" />
+            <TableColumn fx:id="edition" prefWidth="88.0" style="-fx-alignment: center;" text="Edition" />
+            <TableColumn fx:id="quantity" prefWidth="70.0" style="-fx-alignment: center;" text="Quantity" />
+        </columns>
+      </TableView>
+      <Label layoutX="26.0" layoutY="393.0" text="Note: Double Click to Select Book" textFill="#039be5" />
+      <JFXButton fx:id="closeButton" contentDisplay="GRAPHIC_ONLY" layoutX="637.0" layoutY="10.0" onAction="#close" prefHeight="27.0" prefWidth="27.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="Close">
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="POWER_OFF" size="14" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="minButton" contentDisplay="GRAPHIC_ONLY" layoutX="604.0" layoutY="10.0" onAction="#minimize" prefHeight="27.0" prefWidth="27.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="Minimize">
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="MINUS_CIRCLE" size="14" />
+         </graphic>
+      </JFXButton>
+   </children>
+   <effect>
+      <InnerShadow blurType="TWO_PASS_BOX" />
+   </effect>
+</AnchorPane>

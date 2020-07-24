@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="235.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainUI.SideDrawerController">
+   <children>
+      <JFXButton fx:id="drawerButton" accessibleText="drawerButton" contentDisplay="GRAPHIC_ONLY" layoutX="179.0" onAction="#openDrawer" prefHeight="610.0" prefWidth="58.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 0;" textFill="#dadada" />
+      <FontAwesomeIconView fx:id="arrowhead" accessibleText="arrow" disable="true" fill="#dadada" glyphName="ANGLE_RIGHT" layoutX="214.0" layoutY="312.0" size="35" />
+      <VBox fx:id="sideContainer" prefHeight="610.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+         <children>
+            <ImageView fx:id="logoImage" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" />
+            <Separator disable="true" maxWidth="180.0" opacity="0.32">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets bottom="10.0" top="10.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </Separator>
+            <JFXButton fx:id="home" accessibleText="CheckButton" contentDisplay="RIGHT" graphicTextGap="70.0" onAction="#homeTab" prefHeight="45.0" prefWidth="200.0" stylesheets="@SideDrawer.css" text="Home" textFill="#dadada">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView disable="true" fill="#dadada" focusTraversable="true" glyphName="LEANPUB" size="30" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="returns" accessibleText="CheckButton" contentDisplay="RIGHT" graphicTextGap="65.0" onAction="#returnsTab" prefHeight="45.0" prefWidth="200.0" stylesheets="@SideDrawer.css" text="Returns" textFill="#dadada">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView disable="true" fill="#dadada" glyphName="CHECK_SQUARE_ALT" size="30" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="issue" accessibleText="CheckButton" contentDisplay="RIGHT" graphicTextGap="55.0" onAction="#issueTab" prefHeight="45.0" prefWidth="200.0" stylesheets="@SideDrawer.css" text="Issuance" textFill="#dadada">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView disable="true" fill="#dadada" glyphName="EDIT" size="30" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="books" accessibleText="CheckButton" contentDisplay="RIGHT" graphicTextGap="70.0" onAction="#bookTab" prefHeight="45.0" prefWidth="200.0" stylesheets="@SideDrawer.css" text="Books" textFill="#dadada">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView disable="true" fill="#dadada" focusTraversable="true" glyphName="BOOK" size="32" />
+               </graphic></JFXButton>
+            <JFXButton fx:id="students" accessibleText="CheckButton" contentDisplay="RIGHT" graphicTextGap="50.0" onAction="#studentsTab" prefHeight="45.0" prefWidth="200.0" stylesheets="@SideDrawer.css" text="Students" textFill="#dadada">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView disable="true" fill="#dadada" glyphName="USERS" size="30" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="staff" accessibleText="CheckButton" contentDisplay="RIGHT" graphicTextGap="87.0" onAction="#staffTab" prefHeight="45.0" prefWidth="200.0" stylesheets="@SideDrawer.css" text="Staff" textFill="#dadada">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView disable="true" fill="#dadada" glyphName="USER" size="30" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="about" accessibleText="CheckButton" contentDisplay="RIGHT" graphicTextGap="75.0" onAction="#aboutTab" prefHeight="45.0" prefWidth="200.0" stylesheets="@SideDrawer.css" text="About" textFill="#dadada">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView disable="true" fill="#dadada" glyphName="QUESTION_CIRCLE" size="30" />
+               </graphic>
+            </JFXButton>
+         </children></VBox>
+   </children>
+</AnchorPane>

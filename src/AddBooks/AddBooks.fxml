@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="414.0" stylesheets="@AddBooksCSS.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddBooks.AddBooksController">
+   <children>
+      <JFXTextField fx:id="name" focusColor="#212121" labelFloat="true" layoutX="16.0" layoutY="56.0" prefHeight="25.0" prefWidth="382.0" promptText="Book Name" />
+      <JFXTextField fx:id="writer" focusColor="#212121" labelFloat="true" layoutX="17.0" layoutY="94.0" prefHeight="27.0" prefWidth="196.0" promptText="Writer">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextField fx:id="edition" focusColor="#212121" labelFloat="true" layoutX="227.0" layoutY="94.0" prefHeight="27.0" prefWidth="84.0" promptText="Edition">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextField fx:id="quantity" focusColor="#212121" labelFloat="true" layoutX="324.0" layoutY="94.0" prefHeight="27.0" prefWidth="71.0" promptText="Quantity">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextField fx:id="language" focusColor="#212121" labelFloat="true" layoutX="17.0" layoutY="135.0" prefHeight="27.0" prefWidth="196.0" promptText="Language">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextField fx:id="genre" editable="false" focusColor="#212121" labelFloat="true" layoutX="228.0" layoutY="135.0" prefHeight="27.0" prefWidth="167.0" promptText="Genre">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </JFXTextField>
+      <JFXButton fx:id="insert" buttonType="RAISED" graphicTextGap="10.0" layoutX="21.0" layoutY="190.0" onAction="#insert" prefHeight="38.0" prefWidth="175.0" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="INSERT" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="PLUS_CIRCLE" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="cancel" buttonType="RAISED" graphicTextGap="10.0" layoutX="221.0" layoutY="190.0" onAction="#cancel" prefHeight="38.0" prefWidth="175.0" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="CANCEL" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="CLOSE" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="minButton1" contentDisplay="GRAPHIC_ONLY" layoutX="378.0" layoutY="9.0" onAction="#minimize" prefHeight="27.0" prefWidth="27.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="Minimize">
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="MINUS_CIRCLE" size="14" />
+         </graphic>
+      </JFXButton>
+      <Label fx:id="heading" alignment="CENTER" layoutX="103.0" layoutY="14.0" prefHeight="27.0" prefWidth="208.0" text="Add Book">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow blurType="TWO_PASS_BOX" />
+   </effect>
+</AnchorPane>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="560.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Returns.ReturnsController">
+   <children>
+      <Region fx:id="region" layoutX="80.0" layoutY="18.0" prefHeight="65.0" prefWidth="722.0" style="-fx-background-color: dadada; -fx-background-radius: 45;" />
+      <JFXComboBox fx:id="searchOptions" focusColor="#212121" layoutX="124.0" layoutY="43.0" onAction="#hitSearchOption" prefHeight="25.0" prefWidth="190.0" promptText="Search Options" stylesheets="@../Issuance/TableStyle.css">
+         <styleClass>
+            <String fx:value="JFXcombo-box-popup" />
+            <String fx:value="combo-box-popup" />
+            <String fx:value="combo-box-popup2" />
+            <String fx:value="combo-box-popup3" />
+         </styleClass>
+      </JFXComboBox>
+      <JFXTextField fx:id="searchText" focusColor="#212121" labelFloat="true" layoutX="329.0" layoutY="43.0" prefHeight="25.0" prefWidth="180.0" />
+      <JFXDatePicker fx:id="searchDate" defaultColor="#212121" editable="false" layoutX="525.0" layoutY="43.0" prefHeight="25.0" prefWidth="180.0" />
+      <JFXButton fx:id="search" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="719.0" layoutY="40.0" onAction="#search" prefHeight="25.0" prefWidth="25.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 5;" text="INSERT" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="SEARCH" size="20" />
+         </graphic>
+      </JFXButton>
+      <Label fx:id="dateLabel" layoutX="525.0" layoutY="32.0" text="Date" />
+      <TableView fx:id="returnsTable" layoutX="27.0" layoutY="102.0" prefHeight="379.0" prefWidth="807.0" stylesheets="@TableStyle.css">
+        <columns>
+          <TableColumn fx:id="iD" prefWidth="75.0" sortable="false" style="-fx-alignment: Center;" text="ID" />
+            <TableColumn fx:id="issueID" prefWidth="75.0" style="-fx-alignment: Center;" text="Issue ID" />
+          <TableColumn fx:id="issueDate" prefWidth="120.0" style="-fx-alignment: Center;" text="Issue Date" />
+            <TableColumn fx:id="issueTill" prefWidth="120.0" style="-fx-alignment: Center;" text="Issue Till" />
+            <TableColumn fx:id="receivedDate" prefWidth="120.0" style="-fx-alignment: Center;" text="Received Date" />
+            <TableColumn fx:id="staffName" prefWidth="220.0" text="Received By" />
+            <TableColumn fx:id="staffID" prefWidth="75.0" style="-fx-alignment: Center;" text="Staff ID" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="delete" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="209.0" layoutY="502.0" onAction="#deleteSelected" prefHeight="38.0" prefWidth="38.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 50;" text="    Reload Table" textFill="#dadada">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="CLOSE" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="issueNewBook" buttonType="RAISED" graphicTextGap="30.0" layoutX="268.0" layoutY="502.0" onAction="#issueNewBook" prefHeight="38.0" prefWidth="325.0" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="RECEIVE BOOK" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="CHECK_SQUARE_ALT" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="reloader" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="613.0" layoutY="502.0" onAction="#reloadTable" prefHeight="38.0" prefWidth="38.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 50;" text="    Reload Table" textFill="#dadada">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="UNDO" size="20" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

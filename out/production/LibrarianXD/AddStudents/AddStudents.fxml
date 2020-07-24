@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="255.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddStudents.AddStudentsController">
+   <children>
+      <Label alignment="CENTER" layoutX="180.0" layoutY="14.0" prefHeight="27.0" prefWidth="208.0" text="Add Students">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <JFXTextField fx:id="name" focusColor="#212121" labelFloat="true" layoutX="29.0" layoutY="59.0" prefHeight="25.0" prefWidth="249.0" promptText="Name" />
+      <JFXTextField fx:id="email" focusColor="#212121" labelFloat="true" layoutX="293.0" layoutY="59.0" prefHeight="25.0" prefWidth="249.0" promptText="E-mail ID" />
+      <JFXTextField fx:id="address" focusColor="#212121" labelFloat="true" layoutX="28.0" layoutY="101.0" prefHeight="25.0" prefWidth="332.0" promptText="Address" />
+      <JFXTextField fx:id="contact" focusColor="#212121" labelFloat="true" layoutX="376.0" layoutY="101.0" prefHeight="25.0" prefWidth="166.0" promptText="Contact" />
+      <JFXDatePicker fx:id="registrationDate" defaultColor="#212121" editable="false" layoutX="28.0" layoutY="143.0" prefHeight="25.0" prefWidth="200.0" promptText="Date Of Registration" />
+      <JFXTextField fx:id="noOfBooksIssue" focusColor="#212121" labelFloat="true" layoutX="236.0" layoutY="143.0" prefHeight="25.0" prefWidth="179.0" promptText="No Of Books Issued" />
+      <JFXToggleButton fx:id="isBlackedList" layoutX="415.0" layoutY="126.0" prefHeight="58.0" prefWidth="127.0" text="Blacklisted" toggleColor="#212121" toggleLineColor="#616161" />
+      <JFXButton fx:id="InsertStudent" contentDisplay="RIGHT" graphicTextGap="10.0" layoutX="65.0" layoutY="200.0" onAction="#insertNewStudent" prefHeight="38.0" prefWidth="200.0" style="-fx-background-radius: 20; -fx-background-color: #212121;" stylesheets="@../Genre/ViewGenre.css" text="INSERT" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="close" contentDisplay="RIGHT" graphicTextGap="10.0" layoutX="303.0" layoutY="200.0" onAction="#close" prefHeight="38.0" prefWidth="200.0" style="-fx-background-radius: 20; -fx-background-color: #212121;" stylesheets="@../Genre/ViewGenre.css" text="CANCEL" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <FontAwesomeIconView disable="true" fill="#dadada" glyphName="PLUS_CIRCLE" layoutX="115.0" layoutY="225.0" size="20" />
+      <FontAwesomeIconView disable="true" fill="#dadada" glyphName="CLOSE" layoutX="355.0" layoutY="225.0" size="20" />
+      <JFXButton fx:id="minButton" contentDisplay="GRAPHIC_ONLY" layoutX="531.0" layoutY="9.0" onAction="#minimize" prefHeight="27.0" prefWidth="27.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="Minimize">
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="MINUS_CIRCLE" size="14" />
+         </graphic>
+      </JFXButton>
+   </children>
+   <effect>
+      <InnerShadow blurType="TWO_PASS_BOX" />
+   </effect>
+</AnchorPane>

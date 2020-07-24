@@ -1,0 +1,34 @@
+.table-view .column-header {
+    -fx-background-color:  #212121;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: #dadada;
+}
+
+.JFXcombo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover
+ {
+     -fx-background-color: #212121;
+    -fx-text-fill: #dadada;
+ }
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-color: #dadada;
+    -fx-text-fill: #212121;
+}
+.combo-box-popup2 .list-view
+{
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+
+}
+.combo-box{
+    -fx-font-size: 12px;
+
+}
+
+.combo-box-popup3 .list-view .list-cell .jfx-rippler
+{
+    -jfx-rippler-fill: #dadada;
+}

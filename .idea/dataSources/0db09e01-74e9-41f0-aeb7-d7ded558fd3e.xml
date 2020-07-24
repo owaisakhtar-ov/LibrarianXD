@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="LibraryDB@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.8">
+    <root id="1">
+      <ServerVersion>14.0.100</ServerVersion>
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="LibraryDB">
+      <ObjectId>7</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="OVDatabase">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="LabTasks">
+      <ObjectId>6</ObjectId>
+    </database>
+    <schema id="9" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-04-28.23:49:05.223</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="10" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="21" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="22" parent="9" name="sysdiagrams">
+      <ObjectId>1941581955</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.690</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.690</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="9" name="tbl_Book">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2019-04-06.19:25:14.103</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-28.23:49:04.483</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="9" name="tbl_Genre">
+      <ObjectId>1861581670</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:27:56.323</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.06:20:17.763</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="9" name="tbl_Issuance">
+      <ObjectId>338100245</ObjectId>
+      <CreatedTimestamp>2019-04-07.05:35:09.393</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.06:23:27.270</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="9" name="tbl_Return">
+      <ObjectId>418100530</ObjectId>
+      <CreatedTimestamp>2019-04-07.05:49:27.870</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.06:24:04.817</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="9" name="tbl_Staff">
+      <ObjectId>82099333</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:44:53.467</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.06:24:40.960</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="9" name="tbl_Student">
+      <ObjectId>18099105</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:42:03.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.06:25:19.180</ModifiedTimestamp>
+    </table>
+    <view id="29" parent="9" name="viewBooks">
+      <ObjectId>738101670</ObjectId>
+      <CreatedTimestamp>2019-04-10.00:18:34.323</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-28.21:31:51.593</ModifiedTimestamp>
+    </view>
+    <view id="30" parent="9" name="viewGenre">
+      <ObjectId>978102525</ObjectId>
+      <CreatedTimestamp>2019-04-12.06:29:48.500</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.06:29:48.500</ModifiedTimestamp>
+    </view>
+    <view id="31" parent="9" name="viewIssuance">
+      <ObjectId>1058102810</ObjectId>
+      <CreatedTimestamp>2019-04-12.07:18:47.760</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.07:22:43.800</ModifiedTimestamp>
+    </view>
+    <view id="32" parent="9" name="viewReturn">
+      <ObjectId>1074102867</ObjectId>
+      <CreatedTimestamp>2019-04-12.07:30:40.677</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.07:30:40.677</ModifiedTimestamp>
+    </view>
+    <view id="33" parent="9" name="viewStaff">
+      <ObjectId>1042102753</ObjectId>
+      <CreatedTimestamp>2019-04-12.07:05:11.593</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.07:05:11.593</ModifiedTimestamp>
+    </view>
+    <view id="34" parent="9" name="viewStudent">
+      <ObjectId>1010102639</ObjectId>
+      <CreatedTimestamp>2019-04-12.06:53:19.763</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.06:53:19.763</ModifiedTimestamp>
+    </view>
+    <routine id="35" parent="9" name="fn_diagramobjects">
+      <ObjectId>2085582468</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.853</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.853</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="36" parent="9" name="sp_alterdiagram">
+      <ObjectId>2053582354</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.830</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.830</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="37" parent="9" name="sp_creatediagram">
+      <ObjectId>2021582240</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.807</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.807</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="38" parent="9" name="sp_dropdiagram">
+      <ObjectId>2069582411</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.843</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.843</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="39" parent="9" name="sp_helpdiagramdefinition">
+      <ObjectId>2005582183</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.760</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.760</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="40" parent="9" name="sp_helpdiagrams">
+      <ObjectId>1989582126</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.730</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.730</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="41" parent="9" name="sp_renamediagram">
+      <ObjectId>2037582297</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.827</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.827</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="42" parent="9" name="sp_upgraddiagrams">
+      <ObjectId>1925581898</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.637</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.637</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="43" parent="9" name="usp_Decrease_NoOfBooks">
+      <ObjectId>674101442</ObjectId>
+      <CreatedTimestamp>2019-04-09.23:56:38.740</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-09.23:56:38.740</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="44" parent="9" name="usp_Decrease_NoOfBooksIssued">
+      <ObjectId>706101556</ObjectId>
+      <CreatedTimestamp>2019-04-10.00:12:26.253</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-10.00:12:26.253</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="45" parent="9" name="usp_Increase_NoOfBooks">
+      <ObjectId>690101499</ObjectId>
+      <CreatedTimestamp>2019-04-09.23:56:38.760</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-09.23:56:38.760</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="46" parent="9" name="usp_Increase_NoOfBooksIssued">
+      <ObjectId>722101613</ObjectId>
+      <CreatedTimestamp>2019-04-10.00:12:26.317</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-10.00:12:26.317</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="47" parent="9" name="usp_ToggleBLackList">
+      <ObjectId>482100758</ObjectId>
+      <CreatedTimestamp>2019-04-07.06:16:37.363</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.06:16:37.363</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="48" parent="22" name="name">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="22" name="principal_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="22" name="diagram_id">
+      <Position>3</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="22" name="version">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="52" parent="22" name="definition">
+      <Position>5</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </column>
+    <index id="53" parent="22" name="PK__sysdiagr__C2B05B61859849C0">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>diagram_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="54" parent="22" name="UK_principal_name">
+      <Position>2</Position>
+      <ColNames>principal_id
+name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="22" name="PK__sysdiagr__C2B05B61859849C0">
+      <ObjectId>1957582012</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.23:33:49.690</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.690</ModifiedTimestamp>
+      <ColNames>diagram_id</ColNames>
+      <UnderlyingIndexName>PK__sysdiagr__C2B05B61859849C0</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="56" parent="22" name="UK_principal_name">
+      <ObjectId>1973582069</ObjectId>
+      <CreatedTimestamp>2019-04-06.23:33:49.690</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:33:49.690</ModifiedTimestamp>
+      <ColNames>principal_id
+name</ColNames>
+      <UnderlyingIndexName>UK_principal_name</UnderlyingIndexName>
+    </key>
+    <column id="57" parent="23" name="Book_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="23" name="Book_Name">
+      <Position>2</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="23" name="Book_Writer">
+      <Position>3</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="23" name="Book_Edition">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__tbl_Books__Book___49C3F6B7</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="61" parent="23" name="Book_Qualtity">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__tbl_Books__Qualt__60A75C0F</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="62" parent="23" name="Book_Language">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__tbl_Books__Book___6E01572D</DefaultConstraintName>
+      <DefaultExpression>&apos;English&apos;</DefaultExpression>
+      <DataType>nvarchar(15 char)|0s</DataType>
+    </column>
+    <column id="63" parent="23" name="GenreID">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="64" parent="23" name="Book_UniqueID">
+      <Position>9</Position>
+      <Computed>1</Computed>
+      <DefaultExpression>&apos;BK&apos;+CONVERT([varchar](max),[BOOK_ID])</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="65" parent="23" name="PK__tbl_Book__C220CF9C217BF340">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Book_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="23" name="PK__tbl_Book__C220CF9C217BF340">
+      <ObjectId>1221579390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.19:25:14.133</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.19:25:14.133</ModifiedTimestamp>
+      <ColNames>Book_ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Book__C220CF9C217BF340</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="67" parent="23" name="FK__tbl_Book__GerneI__71D1E811">
+      <ObjectId>1909581841</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.23:31:21.573</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:31:21.573</ModifiedTimestamp>
+      <ColNames>GenreID</ColNames>
+      <RefTableId>1861581670</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>tbl_Genre</RefTableName>
+      <RefKeyName>PK__Genre__0385055EAE924E60</RefKeyName>
+      <RefColNames>Genre_ID</RefColNames>
+    </foreign-key>
+    <default id="68" parent="23" name="DF__tbl_Books__Book___49C3F6B7">
+      <ObjectId>1237579447</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Book_Edition</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <default id="69" parent="23" name="DF__tbl_Books__Qualt__60A75C0F">
+      <ObjectId>1621580815</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Book_Qualtity</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <default id="70" parent="23" name="DF__tbl_Books__Book___6E01572D">
+      <ObjectId>1845581613</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Book_Language</ColNames>
+      <DefaultExpression>&apos;English&apos;</DefaultExpression>
+    </default>
+    <column id="71" parent="24" name="Genre_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="24" name="Genre_Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="24" name="Genre_UniqueID">
+      <Position>4</Position>
+      <Computed>1</Computed>
+      <DefaultExpression>&apos;GN&apos;+CONVERT([varchar](max),[Genre_ID])</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="74" parent="24" name="PK__Genre__0385055EAE924E60">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Genre_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="75" parent="24" name="UQ__Genre__BADB4F505C0D4882">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Genre_Name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="76" parent="24" name="PK__Genre__0385055EAE924E60">
+      <ObjectId>1877581727</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.23:27:56.360</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:27:56.360</ModifiedTimestamp>
+      <ColNames>Genre_ID</ColNames>
+      <UnderlyingIndexName>PK__Genre__0385055EAE924E60</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="77" parent="24" name="UQ__Genre__BADB4F505C0D4882">
+      <ObjectId>1893581784</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.23:27:56.360</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:27:56.360</ModifiedTimestamp>
+      <ColNames>Genre_Name</ColNames>
+      <UnderlyingIndexName>UQ__Genre__BADB4F505C0D4882</UnderlyingIndexName>
+    </key>
+    <column id="78" parent="25" name="Issue_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="25" name="Issue_OnDate">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="25" name="Issue_TillDate">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="25" name="Issue_Book">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="82" parent="25" name="Issue_To">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="83" parent="25" name="Issue_By">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="84" parent="25" name="Issue_UniqueID">
+      <Position>7</Position>
+      <Computed>1</Computed>
+      <DefaultExpression>&apos;IS&apos;+CONVERT([varchar](max),[issue_ID])</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="85" parent="25" name="PK__tbl_Issu__B29F2BD8DB05C6AD">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Issue_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="25" name="PK__tbl_Issu__B29F2BD8DB05C6AD">
+      <ObjectId>354100302</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-07.05:35:09.530</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.05:35:09.530</ModifiedTimestamp>
+      <ColNames>Issue_ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Issu__B29F2BD8DB05C6AD</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="87" parent="25" name="FK__tbl_Issua__Issue__160F4887">
+      <ObjectId>370100359</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-07.05:35:09.540</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.05:35:09.540</ModifiedTimestamp>
+      <ColNames>Issue_Book</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>tbl_Book</RefTableName>
+      <RefKeyName>PK__tbl_Book__C220CF9C217BF340</RefKeyName>
+      <RefColNames>Book_ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="88" parent="25" name="FK__tbl_Issua__Issue__17036CC0">
+      <ObjectId>386100416</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-07.05:35:09.540</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.05:35:09.540</ModifiedTimestamp>
+      <ColNames>Issue_To</ColNames>
+      <RefTableId>18099105</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>tbl_Student</RefTableName>
+      <RefKeyName>PK__tbl_Stud__A2F4E9AC69F9395D</RefKeyName>
+      <RefColNames>Student_ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="89" parent="25" name="FK__tbl_Issua__Issue__17F790F9">
+      <ObjectId>402100473</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-07.05:35:09.540</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.05:35:09.540</ModifiedTimestamp>
+      <ColNames>Issue_By</ColNames>
+      <RefTableId>82099333</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>tbl_Staff</RefTableName>
+      <RefKeyName>PK__tbl_Staf__32D1F3C3B153D735</RefKeyName>
+      <RefColNames>Staff_ID</RefColNames>
+    </foreign-key>
+    <column id="90" parent="26" name="Return_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="26" name="Return_Date">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="26" name="Recieved_By">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="93" parent="26" name="Return_Referece">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="94" parent="26" name="Return_UniqueID">
+      <Position>5</Position>
+      <Computed>1</Computed>
+      <DefaultExpression>&apos;RT&apos;+CONVERT([varchar](max),[Return_ID])</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="95" parent="26" name="PK__tbl_Retu__0F4F4C56539F9E74">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Return_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="96" parent="26" name="PK__tbl_Retu__0F4F4C56539F9E74">
+      <ObjectId>434100587</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-07.05:49:27.890</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.05:49:27.890</ModifiedTimestamp>
+      <ColNames>Return_ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Retu__0F4F4C56539F9E74</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="97" parent="26" name="FK__tbl_Retur__Recie__1AD3FDA4">
+      <ObjectId>450100644</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-07.05:49:27.890</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.05:49:27.890</ModifiedTimestamp>
+      <ColNames>Recieved_By</ColNames>
+      <RefTableId>82099333</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>tbl_Staff</RefTableName>
+      <RefKeyName>PK__tbl_Staf__32D1F3C3B153D735</RefKeyName>
+      <RefColNames>Staff_ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="98" parent="26" name="FK__tbl_Retur__Retur__1BC821DD">
+      <ObjectId>466100701</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-07.05:49:27.890</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-07.05:49:27.890</ModifiedTimestamp>
+      <ColNames>Return_Referece</ColNames>
+      <RefTableId>338100245</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>tbl_Issuance</RefTableName>
+      <RefKeyName>PK__tbl_Issu__B29F2BD8DB05C6AD</RefKeyName>
+      <RefColNames>Issue_ID</RefColNames>
+    </foreign-key>
+    <column id="99" parent="27" name="Staff_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="27" name="Staff_Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="27" name="Staff_Contact">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="27" name="Staff_Designation">
+      <Position>4</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="27" name="Staff_UniqueID">
+      <Position>5</Position>
+      <Computed>1</Computed>
+      <DefaultExpression>&apos;SF&apos;+CONVERT([varchar](max),[Staff_ID])</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="104" parent="27" name="PK__tbl_Staf__32D1F3C3B153D735">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Staff_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="27" name="PK__tbl_Staf__32D1F3C3B153D735">
+      <ObjectId>98099390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.23:44:53.470</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:44:53.470</ModifiedTimestamp>
+      <ColNames>Staff_ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Staf__32D1F3C3B153D735</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="106" parent="28" name="Student_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="28" name="Student_Name">
+      <Position>2</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="28" name="Student_Email">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="28" name="Student_Address">
+      <Position>4</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="28" name="Student_Contact">
+      <Position>5</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="28" name="Student_RegisterDate">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="28" name="Student_isBlackList">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__tbl_Stude__Stude__03F0984C</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>bit|0s</DataType>
+    </column>
+    <column id="113" parent="28" name="Student_No_Of_Books_issued">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__tbl_Stude__Stude__2739D489</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="114" parent="28" name="Student_UniqueID">
+      <Position>9</Position>
+      <Computed>1</Computed>
+      <DefaultExpression>&apos;ST&apos;+CONVERT([varchar](max),[Student_ID])</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="115" parent="28" name="PK__tbl_Stud__A2F4E9AC69F9395D">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Student_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="116" parent="28" name="UQ__tbl_Stud__7502CBB52B03CD1B">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Student_Email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="117" parent="28" name="PK__tbl_Stud__A2F4E9AC69F9395D">
+      <ObjectId>34099162</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.23:42:03.143</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:42:03.143</ModifiedTimestamp>
+      <ColNames>Student_ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Stud__A2F4E9AC69F9395D</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="118" parent="28" name="UQ__tbl_Stud__7502CBB52B03CD1B">
+      <ObjectId>50099219</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-04-06.23:42:03.143</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-06.23:42:03.143</ModifiedTimestamp>
+      <ColNames>Student_Email</ColNames>
+      <UnderlyingIndexName>UQ__tbl_Stud__7502CBB52B03CD1B</UnderlyingIndexName>
+    </key>
+    <default id="119" parent="28" name="DF__tbl_Stude__Stude__03F0984C">
+      <ObjectId>66099276</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Student_isBlackList</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="120" parent="28" name="DF__tbl_Stude__Stude__2739D489">
+      <ObjectId>658101385</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Student_No_Of_Books_issued</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="121" parent="29" name="ID">
+      <Position>1</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="122" parent="29" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="29" name="Edition">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="124" parent="29" name="Language">
+      <Position>4</Position>
+      <DataType>nvarchar(15 char)|0s</DataType>
+    </column>
+    <column id="125" parent="29" name="Writer">
+      <Position>5</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="29" name="Quantity">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="127" parent="29" name="Genre">
+      <Position>7</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="30" name="ID">
+      <Position>1</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="129" parent="30" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="31" name="ID">
+      <Position>1</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="131" parent="31" name="Issue Date">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="132" parent="31" name="Issue Till">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="31" name="Student ID">
+      <Position>4</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="134" parent="31" name="Student Name">
+      <Position>5</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="135" parent="31" name="Book ID">
+      <Position>6</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="136" parent="31" name="Book Name">
+      <Position>7</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="31" name="Staff ID">
+      <Position>8</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="138" parent="31" name="Staff Name">
+      <Position>9</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="32" name="ID">
+      <Position>1</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="140" parent="32" name="Issue Date">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="141" parent="32" name="Return Date">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="142" parent="32" name="Issue Till">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="143" parent="32" name="Issue ID">
+      <Position>5</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="144" parent="32" name="Recieved By">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="32" name="Staff ID">
+      <Position>7</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="146" parent="33" name="ID">
+      <Position>1</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="147" parent="33" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="33" name="Contact">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="149" parent="33" name="Designation">
+      <Position>4</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="34" name="ID">
+      <Position>1</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="151" parent="34" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(75 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="34" name="Contact">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="34" name="Email">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="34" name="Address">
+      <Position>5</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="34" name="Registration Date">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="34" name="No. Of Books Issued">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="157" parent="34" name="Blacklisted">
+      <Position>8</Position>
+      <DataType>varchar(3 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <argument id="158" parent="35">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="159" parent="36" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="160" parent="36" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="161" parent="36" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="162" parent="36" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="163" parent="37" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="164" parent="37" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="165" parent="37" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="166" parent="37" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="167" parent="38" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="168" parent="38" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="169" parent="39" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="170" parent="39" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="171" parent="40" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="172" parent="40" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="173" parent="41" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="174" parent="41" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="175" parent="41" name="@new_diagramname">
+      <Position>3</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="176" parent="43" name="@id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="177" parent="44" name="@id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="178" parent="45" name="@id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="179" parent="46" name="@id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="180" parent="47" name="@id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>

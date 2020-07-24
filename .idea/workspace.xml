@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LibrarianXD" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LibraryDB@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainUI/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainUIController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MainUI/MainUIController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="141" column="65" lean-forward="true" selection-start-line="141" selection-start-column="65" selection-end-line="141" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GenreID</find>
+      <find>GerneID</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/MainUI/sideDrawer.fxml" />
+        <option value="$PROJECT_DIR$/src/MainUI/SideDrawer.css" />
+        <option value="$PROJECT_DIR$/src/UpdateStaff/UpdateStaff.fxml" />
+        <option value="$PROJECT_DIR$/src/UpdateStaff/UpdateStaffController.java" />
+        <option value="$PROJECT_DIR$/src/IssueBook/IssueBook.fxml" />
+        <option value="$PROJECT_DIR$/src/IssueBook/MiniBookView.fxml" />
+        <option value="$PROJECT_DIR$/src/IssueBook/MIniStudentView.fxml" />
+        <option value="$PROJECT_DIR$/src/IssueBook/MIniStudentViewController.java" />
+        <option value="$PROJECT_DIR$/src/IssueBook/MiniStaffView.fxml" />
+        <option value="$PROJECT_DIR$/src/IssueBook/MiniStaffViewController.java" />
+        <option value="$PROJECT_DIR$/src/IssueBook/TableStyle.css" />
+        <option value="$PROJECT_DIR$/src/IssueBook/MiniBookViewController.java" />
+        <option value="$PROJECT_DIR$/src/MiniStudentView/MIniStudentViewController.java" />
+        <option value="$PROJECT_DIR$/src/viewStudents/ViewStudentModel.java" />
+        <option value="$PROJECT_DIR$/src/ViewBooks/ViewBookModel.java" />
+        <option value="$PROJECT_DIR$/src/ViewStaff/ViewStaffModel.java" />
+        <option value="$PROJECT_DIR$/src/Genre/GenreModel.java" />
+        <option value="$PROJECT_DIR$/src/Issuance/ViewIssueModel.java" />
+        <option value="$PROJECT_DIR$/src/Issuance/Issuance.fxml" />
+        <option value="$PROJECT_DIR$/src/IssueBook/IssueBookController.java" />
+        <option value="$PROJECT_DIR$/src/UpdateBooks/UpdateBooksController.java" />
+        <option value="$PROJECT_DIR$/src/Issuance/TableStyle.css" />
+        <option value="$PROJECT_DIR$/src/ViewBooks/ViewBooks.css" />
+        <option value="$PROJECT_DIR$/src/ViewStaff/ViewStaff.css" />
+        <option value="$PROJECT_DIR$/src/viewStudents/ViewStudents.css" />
+        <option value="$PROJECT_DIR$/src/Database/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/src/Returns/Returns.fxml" />
+        <option value="$PROJECT_DIR$/src/ViewBooks/ViewBooksController.java" />
+        <option value="$PROJECT_DIR$/src/MiniStudentView/MiniStudentViewController.java" />
+        <option value="$PROJECT_DIR$/src/MiniBookView/MiniBookViewController.java" />
+        <option value="$PROJECT_DIR$/src/ViewStaff/ViewStaffController.java" />
+        <option value="$PROJECT_DIR$/src/viewStudents/ViewStudentsController.java" />
+        <option value="$PROJECT_DIR$/src/ReturnBook/ReturnBook.fxml" />
+        <option value="$PROJECT_DIR$/src/MiniIssueView/MiniIssueView.fxml" />
+        <option value="$PROJECT_DIR$/src/MiniStaffView/MiniStaffViewController.java" />
+        <option value="$PROJECT_DIR$/src/Returns/ViewReturnsModel.java" />
+        <option value="$PROJECT_DIR$/src/MainUI/Tools.java" />
+        <option value="$PROJECT_DIR$/src/MainUI/SideDrawerController.java" />
+        <option value="$PROJECT_DIR$/src/UpdateStudent/UpdateStudentController.java" />
+        <option value="$PROJECT_DIR$/src/AddStaff/AddStaffController.java" />
+        <option value="$PROJECT_DIR$/src/AddStudents/AddStudentsController.java" />
+        <option value="$PROJECT_DIR$/src/ReturnBook/ReturnBookController.java" />
+        <option value="$PROJECT_DIR$/src/MiniIssueView/MiniIssueViewController.java" />
+        <option value="$PROJECT_DIR$/src/AddBooks/AddBooksController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0db09e01-74e9-41f0-aeb7-d7ded558fd3e/console.sql" />
+        <option value="$PROJECT_DIR$/src/Genre/ViewGenreController.java" />
+        <option value="$PROJECT_DIR$/src/Returns/ReturnsController.java" />
+        <option value="$PROJECT_DIR$/src/Issuance/IssuanceController.java" />
+        <option value="$PROJECT_DIR$/src/MainUI/Main.java" />
+        <option value="$PROJECT_DIR$/src/MainUI/MainUIController.java" />
+        <option value="$PROJECT_DIR$/src/MainUI/StartupWindowController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LibrarianXD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibrarianXD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibrarianXD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibrarianXD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibrarianXD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibrarianXD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MainUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="split&#9;ACTION&#9;SplitHorizontally&#10;Split&#9;ACTION&#9;SplitVertically" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\Returns" />
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\MiniIssueView" />
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\Issuance" />
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\MiniStudentView" />
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\MiniStaffView" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\MiniStudentView" />
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\MiniStaffView" />
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\MiniBookView" />
+      <recent name="C:\Users\Addler\IdeaProjects\LibrarianXD\src\icons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MainUI.Main" />
+      <module name="LibrarianXD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1555097780671" duration="3881000" />
+      <workItem from="1555147320646" duration="7962000" />
+      <workItem from="1555271644268" duration="8239000" />
+      <workItem from="1555326355622" duration="2156000" />
+      <workItem from="1555332418513" duration="1621000" />
+      <workItem from="1555335222751" duration="7196000" />
+      <workItem from="1555515783007" duration="557000" />
+      <workItem from="1555691503922" duration="384000" />
+      <workItem from="1555696527785" duration="5207000" />
+      <workItem from="1555703573729" duration="3259000" />
+      <workItem from="1555759330874" duration="8829000" />
+      <workItem from="1555771660490" duration="7796000" />
+      <workItem from="1555839581463" duration="3218000" />
+      <workItem from="1555850153645" duration="457000" />
+      <workItem from="1555945250502" duration="1078000" />
+      <workItem from="1556098978472" duration="15579000" />
+      <workItem from="1556116542582" duration="337000" />
+      <workItem from="1556124718838" duration="81000" />
+      <workItem from="1556283242601" duration="3546000" />
+      <workItem from="1556299354739" duration="5133000" />
+      <workItem from="1556359361725" duration="2400000" />
+      <workItem from="1556362613871" duration="1226000" />
+      <workItem from="1556364654072" duration="6616000" />
+      <workItem from="1556380807287" duration="7858000" />
+      <workItem from="1556443958097" duration="3324000" />
+      <workItem from="1556448006734" duration="12071000" />
+      <workItem from="1556460352298" duration="1093000" />
+      <workItem from="1556545797686" duration="4768000" />
+      <workItem from="1556970598650" duration="5445000" />
+      <workItem from="1557049390621" duration="8165000" />
+      <workItem from="1557061247351" duration="2649000" />
+      <workItem from="1557134866646" duration="16480000" />
+      <workItem from="1557222639001" duration="10294000" />
+      <workItem from="1557310832247" duration="418000" />
+      <workItem from="1557315107199" duration="196000" />
+      <workItem from="1557329928753" duration="314000" />
+      <workItem from="1557330819914" duration="255000" />
+      <workItem from="1557331136594" duration="85000" />
+      <workItem from="1557333345208" duration="751000" />
+      <workItem from="1557335142868" duration="3606000" />
+      <workItem from="1557570566845" duration="6553000" />
+      <workItem from="1557594870227" duration="5418000" />
+      <workItem from="1557656900268" duration="6399000" />
+      <workItem from="1557675722169" duration="12538000" />
+      <workItem from="1557766060383" duration="2734000" />
+      <workItem from="1557944167255" duration="2455000" />
+      <workItem from="1558110088130" duration="1235000" />
+      <workItem from="1558113907771" duration="9631000" />
+      <workItem from="1558640203351" duration="3526000" />
+      <workItem from="1558711745290" duration="1857000" />
+      <workItem from="1558721011495" duration="1802000" />
+      <workItem from="1558804637208" duration="1796000" />
+      <workItem from="1558988497769" duration="168000" />
+      <workItem from="1558989063168" duration="332000" />
+      <workItem from="1558989572099" duration="561000" />
+      <workItem from="1559061395408" duration="2457000" />
+      <workItem from="1559064286989" duration="399000" />
+      <workItem from="1559065646907" duration="2526000" />
+      <workItem from="1559147315238" duration="650000" />
+      <workItem from="1559324819193" duration="190000" />
+      <workItem from="1559748867748" duration="245000" />
+      <workItem from="1562094064161" duration="429000" />
+      <workItem from="1562143524223" duration="2333000" />
+      <workItem from="1562146922055" duration="2931000" />
+      <workItem from="1562165418413" duration="3430000" />
+      <workItem from="1562331545906" duration="1500000" />
+      <workItem from="1562333361382" duration="1743000" />
+      <workItem from="1562420159781" duration="66000" />
+      <workItem from="1564340522412" duration="409000" />
+      <workItem from="1564341733544" duration="206000" />
+      <workItem from="1564488941432" duration="1011000" />
+      <workItem from="1564522213077" duration="205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="253567000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32991013" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50064266" side_tool="true" weight="0.24646984" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32969153" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.2618742" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32991013" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22107969" />
+      <window_info anchor="right" id="Database" order="7" weight="0.26285347" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3889602" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32991013" />
+      <window_info anchor="bottom" id="Changes" order="16" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Duplicates" order="17" weight="0.32991013" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32991013" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="Profiler" order="16" />
+      <window_info anchor="bottom" id="Application Servers" order="16" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991013" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MainUI/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Issuance/IssuanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="213" column="57" selection-start-line="213" selection-start-column="57" selection-end-line="213" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Returns/ReturnsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainUI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Issuance/IssuanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Returns/ReturnsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="178" selection-start-line="82" selection-start-column="178" selection-end-line="82" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///1c3b2be4/0db09e01-74e9-41f0-aeb7-d7ded558fd3e/database/LibraryDB/schema/dbo/routine/usp_Increase_NoOfBooksIssued.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///1c3b2be4/0db09e01-74e9-41f0-aeb7-d7ded558fd3e/database/LibraryDB/schema/dbo/routine/usp_Decrease_NoOfBooks.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewStudents/ViewStudentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewStaff/ViewStaffModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewBooks/ViewBookModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Genre/GenreModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="2547" selection-start-line="2547" selection-end-line="2547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0db09e01-74e9-41f0-aeb7-d7ded558fd3e/database/LibraryDB/schema/dbo/view/viewReturn">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Issuance/ViewIssueModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewBooks/ViewBooks.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewStudents/ViewStudents.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Issuance/TableStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IssueBook/TableStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewStaff/ViewStaff.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiniStudentView/MiniStudentViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiniBookView/MiniBookViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewStaff/ViewStaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiniStaffView/MiniStaffViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="97" column="96" lean-forward="true" selection-start-line="97" selection-start-column="96" selection-end-line="97" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Returns/ViewReturnsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainUI/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewBooks/ViewBooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="94" column="63" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainUI/SideDrawerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddStaff/AddStaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="47" column="80" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UpdateBooks/UpdateBooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="85" column="63" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UpdateStaff/UpdateStaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IssueBook/IssueBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="160" column="128" selection-start-line="160" selection-start-column="128" selection-end-line="160" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UpdateStudent/UpdateStudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="77" column="88" selection-start-line="77" selection-start-column="88" selection-end-line="77" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddStudents/AddStudentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReturnBook/ReturnBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddBooks/AddBooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0db09e01-74e9-41f0-aeb7-d7ded558fd3e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewStudents/ViewStudentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Genre/ViewGenreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="143" column="52" lean-forward="true" selection-start-line="143" selection-start-column="52" selection-end-line="143" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Issuance/IssuanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="221" column="67" selection-start-line="221" selection-start-column="67" selection-end-line="221" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Returns/ReturnsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="136" column="67" selection-start-line="136" selection-start-column="67" selection-end-line="136" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-LibrarianXD">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-LibrarianXD</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="15.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Test dependencies</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Addler/IdeaProjects/LibrarianXD">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="612.0" y="364.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainUI/StartupWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="872.0" y="1184.201171875">css</node>
+            <node x="356.4545454545457" y="428.0">AddStudents</node>
+            <node x="0.0" y="1184.201171875">impl</node>
+            <node x="442.0" y="1184.201171875">java</node>
+            <node x="1585.0" y="1058.0">javafx</node>
+            <node x="867.7300127902398" y="716.0">ViewStaff</node>
+            <node x="789.5355683457954" y="895.0">MiniStaffView</node>
+            <node x="677.3934343434348" y="984.0">ReturnBook</node>
+            <node x="743.0" y="1058.0">META-INF</node>
+            <node x="1268.0" y="1058.0">groovy</node>
+            <node x="566.9823232323236" y="567.0">AddBooks</node>
+            <node x="1097.0" y="1058.0">netscape</node>
+            <node x="100.12042038348886" y="895.0">MiniIssueView</node>
+            <node x="587.0" y="1184.201171875">sun</node>
+            <node x="1578.367895130964" y="716.0">MiniStudentView</node>
+            <node x="1012.0" y="1184.201171875">jdk</node>
+            <node x="296.0" y="1184.201171875">font</node>
+            <node x="1152.0" y="1184.201171875">de</node>
+            <node x="922.0" y="1058.0">microsoft</node>
+            <node x="534.0" y="1058.0">groovyjarjarasm</node>
+            <node x="1739.0" y="1058.0">javax</node>
+            <node x="1429.0" y="1058.0">oracle</node>
+            <node x="950.4764774367045" y="0.0">MainUI</node>
+            <node x="1176.0994572346842" y="567.0">UpdateBooks</node>
+            <node x="730.0" y="1184.201171875">org</node>
+            <node x="1196.1994572346844" y="716.0">ViewBooks</node>
+            <node x="55.818181818181756" y="716.0">Issuance</node>
+            <node x="948.1355683457953" y="179.0">Database</node>
+            <node x="1185.9254348135037" y="984.0">IssueBook</node>
+            <node x="40.0" y="1064.201171875">groovyjarjarantlr</node>
+            <node x="211.45454545454572" y="428.0">AddStaff</node>
+            <node x="1607.0040771623164" y="428.0">UpdateStudent</node>
+            <node x="1556.4393237023926" y="567.0">viewStudents</node>
+            <node x="596.3480683457952" y="428.0">Genre</node>
+            <node x="148.0" y="1184.201171875">com</node>
+            <node x="1468.0040771623164" y="428.0">Returns</node>
+            <node x="281.0" y="1058.0">groovyjarjarcommonscli</node>
+            <node x="964.2855683457954" y="895.0">UpdateStaff</node>
+            <node x="1284.800108498404" y="895.0">MiniBookView</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="UpdateBooks" target="Database">
+              <point x="18.625" y="-14.5" />
+              <point x="1269.2244572346842" y="547.0" />
+              <point x="1256.0994572346842" y="547.0" />
+              <point x="1256.0994572346842" y="338.0" />
+              <point x="1034.566123901351" y="338.0" />
+              <point x="22.930555555555543" y="14.5" />
+            </edge>
+            <edge source="AddBooks" target="MainUI">
+              <point x="-49.875" y="-14.5" />
+              <point x="583.6073232323236" y="547.0" />
+              <point x="200.95454545454572" y="547.0" />
+              <point x="200.95454545454572" y="119.0" />
+              <point x="985.0446592548863" y="119.0" />
+              <point x="-23.93181818181813" y="14.5" />
+            </edge>
+            <edge source="IssueBook" target="MainUI">
+              <point x="55.0" y="-14.5" />
+              <point x="1306.9254348135037" y="964.0" />
+              <point x="1841.6358953441347" y="964.0" />
+              <point x="1841.6358953441347" y="69.0" />
+              <point x="1064.8173865276135" y="69.0" />
+              <point x="55.84090909090901" y="14.5" />
+            </edge>
+            <edge source="MainUI" target="MainUI">
+              <point x="-55.84090909090909" y="14.5" />
+              <point x="953.1355683457954" y="49.0" />
+              <point x="930.4764774367045" y="49.0" />
+              <point x="930.4764774367045" y="14.5" />
+              <point x="-58.5" y="-0.0" />
+            </edge>
+            <edge source="UpdateStudent" target="viewStudents">
+              <point x="39.5" y="14.5" />
+              <point x="1725.5040771623164" y="527.0" />
+              <point x="1660.7393237023925" y="527.0" />
+              <point x="29.799999999999955" y="-14.5" />
+            </edge>
+            <edge source="Returns" target="MainUI">
+              <point x="39.66666666666663" y="-14.5" />
+              <point x="1567.1707438289832" y="408.0" />
+              <point x="1599.1994572346841" y="408.0" />
+              <point x="1599.1994572346841" y="149.0" />
+              <point x="1022.271931982159" y="149.0" />
+              <point x="13.295454545454504" y="14.5" />
+            </edge>
+            <edge source="viewStudents" target="MainUI">
+              <point x="59.59999999999991" y="-14.5" />
+              <point x="1690.5393237023925" y="547.0" />
+              <point x="1780.8222589804984" y="547.0" />
+              <point x="1780.8222589804984" y="119.0" />
+              <point x="1038.2264774367045" y="119.0" />
+              <point x="29.25" y="14.5" />
+            </edge>
+            <edge source="AddBooks" target="Genre">
+              <point x="16.625" y="-14.5" />
+              <point x="650.1073232323236" y="547.0" />
+              <point x="673.3480683457952" y="547.0" />
+              <point x="22.0" y="14.5" />
+            </edge>
+            <edge source="IssueBook" target="MiniStudentView">
+              <point x="33.0" y="-14.5" />
+              <point x="1284.9254348135037" y="954.0" />
+              <point x="1662.867895130964" y="954.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="MiniStaffView" target="Database">
+              <point x="-12.666666666666629" y="-14.5" />
+              <point x="852.8689016791287" y="815.0" />
+              <point x="807.2300127902398" y="815.0" />
+              <point x="807.2300127902398" y="388.0" />
+              <point x="1002.8161239013509" y="388.0" />
+              <point x="-8.819444444444457" y="14.5" />
+            </edge>
+            <edge source="MiniStaffView" target="ViewStaff">
+              <point x="38.0" y="-14.5" />
+              <point x="903.5355683457954" y="865.0" />
+              <point x="945.9522350124621" y="865.0" />
+              <point x="14.222222222222229" y="14.5" />
+            </edge>
+            <edge source="MiniBookView" target="ViewBooks">
+              <point x="-64.58333333333326" y="-14.5" />
+              <point x="1297.7167751650707" y="855.0" />
+              <point x="1283.6280286632555" y="855.0" />
+              <point x="19.42857142857133" y="14.5" />
+            </edge>
+            <edge source="MiniIssueView" target="Issuance">
+              <point x="-22.0" y="-14.5" />
+              <point x="155.12042038348886" y="865.0" />
+              <point x="135.53246753246754" y="865.0" />
+              <point x="17.714285714285722" y="14.5" />
+            </edge>
+            <edge source="ReturnBook" target="MiniStaffView">
+              <point x="56.400000000000006" y="-14.5" />
+              <point x="804.2934343434348" y="964.0" />
+              <point x="827.5355683457954" y="964.0" />
+              <point x="-38.0" y="14.5" />
+            </edge>
+            <edge source="ViewBooks" target="MainUI">
+              <point x="54.40000000000009" y="-14.5" />
+              <point x="1318.5994572346845" y="686.0" />
+              <point x="1796.1813498895895" y="686.0" />
+              <point x="1796.1813498895895" y="109.0" />
+              <point x="1043.5446592548863" y="109.0" />
+              <point x="34.568181818181756" y="14.5" />
+            </edge>
+            <edge source="Returns" target="Returns">
+              <point x="0.0" y="14.5" />
+              <point x="1527.5040771623164" y="487.0" />
+              <point x="1438.0040771623164" y="487.0" />
+              <point x="1438.0040771623164" y="442.5" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="MiniStaffView" target="MainUI">
+              <point x="-63.333333333333314" y="-14.5" />
+              <point x="802.2022350124621" y="835.0" />
+              <point x="190.31818181818176" y="835.0" />
+              <point x="190.31818181818176" y="99.0" />
+              <point x="974.4082956185225" y="99.0" />
+              <point x="-34.56818181818187" y="14.5" />
+            </edge>
+            <edge source="viewStudents" target="Database">
+              <point x="-29.799999999999955" y="-14.5" />
+              <point x="1601.1393237023926" y="517.0" />
+              <point x="1417.5040771623164" y="517.0" />
+              <point x="1417.5040771623164" y="268.0" />
+              <point x="1059.2605683457953" y="268.0" />
+              <point x="47.624999999999886" y="14.5" />
+            </edge>
+            <edge source="Issuance" target="MainUI">
+              <point x="-41.33333333333337" y="-14.5" />
+              <point x="76.42698248720922" y="89.0" />
+              <point x="969.0901138003408" y="89.0" />
+              <point x="-39.886363636363626" y="14.5" />
+            </edge>
+            <edge source="Issuance" target="Issuance">
+              <point x="-17.714285714285666" y="14.5" />
+              <point x="100.10389610389609" y="785.0" />
+              <point x="15.818181818181756" y="785.0" />
+              <point x="15.818181818181756" y="720.8333333333333" />
+              <point x="-62.0" y="-9.666666666666686" />
+            </edge>
+            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+              <point x="-55.333333333333336" y="14.5" />
+              <point x="67.66666666666666" y="1113.201171875" />
+              <point x="20.0" y="1113.201171875" />
+              <point x="20.0" y="1088.3678385416667" />
+              <point x="-83.0" y="9.666666666666666" />
+            </edge>
+            <edge source="MiniStudentView" target="Database">
+              <point x="-70.41666666666674" y="-14.5" />
+              <point x="1592.4512284642972" y="676.0" />
+              <point x="1388.0689016791287" y="676.0" />
+              <point x="1388.0689016791287" y="298.0" />
+              <point x="1048.677235012462" y="298.0" />
+              <point x="37.04166666666663" y="14.5" />
+            </edge>
+            <edge source="AddBooks" target="Database">
+              <point x="49.875" y="-14.5" />
+              <point x="683.3573232323236" y="547.0" />
+              <point x="719.8708148858714" y="547.0" />
+              <point x="719.8708148858714" y="318.0" />
+              <point x="978.1216794569063" y="318.0" />
+              <point x="-33.513888888888914" y="14.5" />
+            </edge>
+            <edge source="Database" target="MainUI">
+              <point x="-42.33333333333337" y="-14.5" />
+              <point x="969.302235012462" y="159.0" />
+              <point x="1006.3173865276135" y="159.0" />
+              <point x="-2.659090909090878" y="14.5" />
+            </edge>
+            <edge source="ViewStaff" target="Database">
+              <point x="0.0" y="-14.5" />
+              <point x="931.7300127902398" y="696.0" />
+              <point x="947.5633461235732" y="696.0" />
+              <point x="947.5633461235732" y="398.0" />
+              <point x="1006.3439016791287" y="398.0" />
+              <point x="-5.291666666666629" y="14.5" />
+            </edge>
+            <edge source="UpdateStudent" target="Database">
+              <point x="0.0" y="-14.5" />
+              <point x="1686.0040771623164" y="228.0" />
+              <point x="1073.3716794569063" y="228.0" />
+              <point x="61.73611111111097" y="14.5" />
+            </edge>
+            <edge source="UpdateStaff" target="MainUI">
+              <point x="56.39999999999998" y="-14.5" />
+              <point x="1091.1855683457952" y="865.0" />
+              <point x="1816.4502892835287" y="865.0" />
+              <point x="1816.4502892835287" y="89.0" />
+              <point x="1054.18102289125" y="89.0" />
+              <point x="45.204545454545496" y="14.5" />
+            </edge>
+            <edge source="IssueBook" target="MiniBookView">
+              <point x="11.0" y="-14.5" />
+              <point x="1262.9254348135037" y="944.0" />
+              <point x="1362.300108498404" y="944.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ViewStaff" target="ViewStaff">
+              <point x="-28.444444444444443" y="14.5" />
+              <point x="903.2855683457954" y="785.0" />
+              <point x="827.7300127902398" y="785.0" />
+              <point x="827.7300127902398" y="726.875" />
+              <point x="-64.0" y="-3.625" />
+            </edge>
+            <edge source="UpdateStaff" target="Database">
+              <point x="28.19999999999999" y="-14.5" />
+              <point x="1062.9855683457954" y="875.0" />
+              <point x="1083.1101010101015" y="875.0" />
+              <point x="1083.1101010101015" y="388.0" />
+              <point x="1016.927235012462" y="388.0" />
+              <point x="5.291666666666629" y="14.5" />
+            </edge>
+            <edge source="UpdateStudent" target="MainUI">
+              <point x="52.66666666666674" y="-14.5" />
+              <point x="1738.6707438289832" y="408.0" />
+              <point x="1715.1676767676774" y="408.0" />
+              <point x="1715.1676767676774" y="139.0" />
+              <point x="1027.5901138003408" y="139.0" />
+              <point x="18.613636363636374" y="14.5" />
+            </edge>
+            <edge source="viewStudents" target="UpdateStudent">
+              <point x="0.0" y="-14.5" />
+              <point x="1630.9393237023926" y="527.0" />
+              <point x="1646.5040771623164" y="527.0" />
+              <point x="-39.5" y="14.5" />
+            </edge>
+            <edge source="UpdateStaff" target="ViewStaff">
+              <point x="-56.400000000000006" y="-14.5" />
+              <point x="978.3855683457954" y="875.0" />
+              <point x="974.3966794569064" y="875.0" />
+              <point x="42.666666666666686" y="14.5" />
+            </edge>
+            <edge source="MiniStudentView" target="MainUI">
+              <point x="70.41666666666674" y="-14.5" />
+              <point x="1733.2845617976307" y="696.0" />
+              <point x="1801.499531707771" y="696.0" />
+              <point x="1801.499531707771" y="99.0" />
+              <point x="1048.862841073068" y="99.0" />
+              <point x="39.88636363636351" y="14.5" />
+            </edge>
+            <edge source="MiniBookView" target="Database">
+              <point x="12.916666666666742" y="-14.5" />
+              <point x="1375.2167751650707" y="855.0" />
+              <point x="1363.0133461235732" y="855.0" />
+              <point x="1363.0133461235732" y="318.0" />
+              <point x="1041.6216794569063" y="318.0" />
+              <point x="29.986111111111086" y="14.5" />
+            </edge>
+            <edge source="MiniBookView" target="MainUI">
+              <point x="64.58333333333326" y="-14.5" />
+              <point x="1426.8834418317372" y="875.0" />
+              <point x="1821.7684711017105" y="875.0" />
+              <point x="1821.7684711017105" y="79.0" />
+              <point x="1059.4992047094318" y="79.0" />
+              <point x="50.52272727272725" y="14.5" />
+            </edge>
+            <edge source="viewStudents" target="viewStudents">
+              <point x="-21.285714285714334" y="14.5" />
+              <point x="1609.6536094166781" y="636.0" />
+              <point x="1516.4393237023926" y="636.0" />
+              <point x="1516.4393237023926" y="577.875" />
+              <point x="-74.5" y="-3.625" />
+            </edge>
+            <edge source="ViewBooks" target="ViewBooks">
+              <point x="-19.428571428571416" y="14.5" />
+              <point x="1244.7708858061128" y="785.0" />
+              <point x="1156.1994572346844" y="785.0" />
+              <point x="1156.1994572346844" y="726.875" />
+              <point x="-68.0" y="-3.625" />
+            </edge>
+            <edge source="MiniStudentView" target="viewStudents">
+              <point x="14.083333333333258" y="-14.5" />
+              <point x="1676.9512284642972" y="676.0" />
+              <point x="1673.510752273821" y="676.0" />
+              <point x="42.57142857142844" y="14.5" />
+            </edge>
+            <edge source="Returns" target="Database">
+              <point x="-39.66666666666663" y="-14.5" />
+              <point x="1487.8374104956497" y="258.0" />
+              <point x="1062.788346123573" y="258.0" />
+              <point x="51.152777777777715" y="14.5" />
+            </edge>
+            <edge source="MainUI" target="Database">
+              <point x="2.659090909090878" y="14.5" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+            <edge source="AddStaff" target="MainUI">
+              <point x="-41.66666666666663" y="-14.5" />
+              <point x="232.2878787878791" y="408.0" />
+              <point x="246.80483473807385" y="408.0" />
+              <point x="246.80483473807385" y="129.0" />
+              <point x="990.362841073068" y="129.0" />
+              <point x="-18.613636363636374" y="14.5" />
+            </edge>
+            <edge source="ViewStaff" target="MainUI">
+              <point x="-42.66666666666663" y="-14.5" />
+              <point x="889.0633461235732" y="676.0" />
+              <point x="195.63636363636374" y="676.0" />
+              <point x="195.63636363636374" y="109.0" />
+              <point x="979.7264774367045" y="109.0" />
+              <point x="-29.25" y="14.5" />
+            </edge>
+            <edge source="Issuance" target="Database">
+              <point x="41.33333333333337" y="-14.5" />
+              <point x="159.15151515151513" y="696.0" />
+              <point x="732.1744572346842" y="696.0" />
+              <point x="732.1744572346842" y="328.0" />
+              <point x="981.6494572346842" y="328.0" />
+              <point x="-29.986111111111086" y="14.5" />
+            </edge>
+            <edge source="UpdateBooks" target="Genre">
+              <point x="-55.875" y="-14.5" />
+              <point x="1194.7244572346842" y="537.0" />
+              <point x="695.3480683457952" y="537.0" />
+              <point x="44.0" y="14.5" />
+            </edge>
+            <edge source="UpdateBooks" target="ViewBooks">
+              <point x="37.25" y="14.5" />
+              <point x="1287.8494572346842" y="666.0" />
+              <point x="1264.1994572346844" y="666.0" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+            <edge source="ReturnBook" target="MainUI">
+              <point x="-56.400000000000034" y="-14.5" />
+              <point x="691.4934343434347" y="964.0" />
+              <point x="0.0" y="964.0" />
+              <point x="0.0" y="69.0" />
+              <point x="958.4537501639772" y="69.0" />
+              <point x="-50.52272727272725" y="14.5" />
+            </edge>
+            <edge source="ViewBooks" target="UpdateBooks">
+              <point x="-27.200000000000045" y="-14.5" />
+              <point x="1236.999457234684" y="686.0" />
+              <point x="1213.3494572346842" y="686.0" />
+              <point x="-37.25" y="14.5" />
+            </edge>
+            <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+              <point x="-52.0" y="14.5" />
+              <point x="333.0" y="1107.0" />
+              <point x="261.0" y="1107.0" />
+              <point x="261.0" y="1079.75" />
+              <point x="-104.0" y="7.25" />
+            </edge>
+            <edge source="ReturnBook" target="Database">
+              <point x="28.19999999999999" y="-14.5" />
+              <point x="776.0934343434348" y="964.0" />
+              <point x="770.2161239013508" y="964.0" />
+              <point x="770.2161239013508" y="368.0" />
+              <point x="995.7605683457953" y="368.0" />
+              <point x="-15.875" y="14.5" />
+            </edge>
+            <edge source="ViewBooks" target="Database">
+              <point x="27.200000000000045" y="-14.5" />
+              <point x="1291.3994572346842" y="676.0" />
+              <point x="1343.9208148858713" y="676.0" />
+              <point x="1343.9208148858713" y="328.0" />
+              <point x="1038.0939016791285" y="328.0" />
+              <point x="26.458333333333258" y="14.5" />
+            </edge>
+            <edge source="IssueBook" target="Database">
+              <point x="-11.0" y="-14.5" />
+              <point x="1240.9254348135037" y="944.0" />
+              <point x="1126.7855683457954" y="944.0" />
+              <point x="1126.7855683457954" y="368.0" />
+              <point x="1023.9827905680174" y="368.0" />
+              <point x="12.347222222222172" y="14.5" />
+            </edge>
+            <edge source="IssueBook" target="MiniStaffView">
+              <point x="-55.0" y="-14.5" />
+              <point x="1196.9254348135037" y="964.0" />
+              <point x="903.5355683457954" y="964.0" />
+              <point x="38.0" y="14.5" />
+            </edge>
+            <edge source="ViewStaff" target="UpdateStaff">
+              <point x="56.888888888888914" y="14.5" />
+              <point x="988.6189016791287" y="875.0" />
+              <point x="1006.5855683457953" y="875.0" />
+              <point x="-28.19999999999999" y="-14.5" />
+            </edge>
+            <edge source="Genre" target="Genre">
+              <point x="0.0" y="14.5" />
+              <point x="651.3480683457952" y="497.0" />
+              <point x="556.3480683457952" y="497.0" />
+              <point x="556.3480683457952" y="432.83333333333337" />
+              <point x="-55.0" y="-9.666666666666629" />
+            </edge>
+            <edge source="AddStaff" target="Database">
+              <point x="41.666666666666686" y="-14.5" />
+              <point x="315.62121212121247" y="248.0" />
+              <point x="953.427235012462" y="248.0" />
+              <point x="-58.20833333333337" y="14.5" />
+            </edge>
+            <edge source="UpdateBooks" target="MainUI">
+              <point x="55.875" y="-14.5" />
+              <point x="1306.4744572346842" y="537.0" />
+              <point x="1775.5040771623164" y="537.0" />
+              <point x="1775.5040771623164" y="129.0" />
+              <point x="1032.9082956185225" y="129.0" />
+              <point x="23.93181818181813" y="14.5" />
+            </edge>
+            <edge source="Genre" target="MainUI">
+              <point x="-36.66666666666674" y="-14.5" />
+              <point x="614.6814016791285" y="149.0" />
+              <point x="1000.9992047094318" y="149.0" />
+              <point x="-7.977272727272748" y="14.5" />
+            </edge>
+            <edge source="AddStudents" target="MainUI">
+              <point x="-49.0" y="-14.5" />
+              <point x="380.8966794569063" y="139.0" />
+              <point x="995.68102289125" y="139.0" />
+              <point x="-13.295454545454504" y="14.5" />
+            </edge>
+            <edge source="Genre" target="Database">
+              <point x="0.0" y="-14.5" />
+              <point x="651.3480683457952" y="298.0" />
+              <point x="971.0661239013509" y="298.0" />
+              <point x="-40.56944444444446" y="14.5" />
+            </edge>
+            <edge source="ReturnBook" target="MiniIssueView">
+              <point x="-28.19999999999999" y="-14.5" />
+              <point x="719.6934343434348" y="954.0" />
+              <point x="177.12042038348886" y="954.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="MiniIssueView" target="Database">
+              <point x="66.0" y="-14.5" />
+              <point x="243.12042038348886" y="875.0" />
+              <point x="746.7022350124619" y="875.0" />
+              <point x="746.7022350124619" y="348.0" />
+              <point x="988.7050127902398" y="348.0" />
+              <point x="-22.930555555555543" y="14.5" />
+            </edge>
+            <edge source="AddStudents" target="Database">
+              <point x="0.0" y="-14.5" />
+              <point x="429.9545454545457" y="258.0" />
+              <point x="956.9550127902398" y="258.0" />
+              <point x="-54.68055555555554" y="14.5" />
+            </edge>
+            <edge source="MiniIssueView" target="MainUI">
+              <point x="-66.0" y="-14.5" />
+              <point x="111.12042038348886" y="875.0" />
+              <point x="5.318181818181756" y="875.0" />
+              <point x="5.318181818181756" y="79.0" />
+              <point x="963.771931982159" y="79.0" />
+              <point x="-45.204545454545496" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9214195183776933" x="644.0" y="521.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/0db09e01-74e9-41f0-aeb7-d7ded558fd3e.DATABASE:LibraryDB">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0db09e01-74e9-41f0-aeb7-d7ded558fd3e.DATABASE:LibraryDB</OriginalElement>
+          <nodes>
+            <node x="235.0" y="146.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Student</node>
+            <node x="0.0" y="1093.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.VIEW:LibraryDB.dbo.viewGenre</node>
+            <node x="391.625" y="658.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Return</node>
+            <node x="488.0" y="190.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Staff</node>
+            <node x="0.0" y="0.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Genre</node>
+            <node x="682.0" y="843.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.sysdiagrams</node>
+            <node x="916.0" y="843.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.VIEW:LibraryDB.dbo.viewStaff</node>
+            <node x="462.0" y="843.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.VIEW:LibraryDB.dbo.viewBooks</node>
+            <node x="232.3392857142857" y="424.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Issuance</node>
+            <node x="226.0" y="843.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.VIEW:LibraryDB.dbo.viewReturn</node>
+            <node x="0.0" y="843.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.VIEW:LibraryDB.dbo.viewStudent</node>
+            <node x="759.25" y="0.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.VIEW:LibraryDB.dbo.viewIssuance</node>
+            <node x="3.0" y="157.0">0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Book</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Return" target="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Issuance">
+              <point x="-55.5" y="-70.0" />
+              <point x="447.125" y="633.0" />
+              <point x="337.83928571428567" y="633.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+            <edge source="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Issuance" target="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Student">
+              <point x="0.0" y="-92.0" />
+              <point x="337.83928571428567" y="399.0" />
+              <point x="351.5" y="399.0" />
+              <point x="0.0" y="114.0" />
+            </edge>
+            <edge source="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Return" target="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Staff">
+              <point x="55.500000000000014" y="-70.0" />
+              <point x="558.125" y="633.0" />
+              <point x="653.75" y="633.0" />
+              <point x="55.25" y="70.0" />
+            </edge>
+            <edge source="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Book" target="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Genre">
+              <point x="0.0" y="-103.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Issuance" target="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Staff">
+              <point x="70.33333333333331" y="-92.0" />
+              <point x="408.17261904761904" y="399.0" />
+              <point x="543.25" y="399.0" />
+              <point x="-55.25" y="70.0" />
+            </edge>
+            <edge source="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Issuance" target="0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Book">
+              <point x="-70.33333333333331" y="-92.0" />
+              <point x="267.5059523809524" y="399.0" />
+              <point x="109.0" y="399.0" />
+              <point x="0.0" y="103.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.612984822934233" x="552.0" y="583.0" />
+          <SelectedNodes>
+            <node>0db09e01-74e9-41f0-aeb7-d7ded558fd3e.TABLE:LibraryDB.dbo.tbl_Book</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiniIssueView/MiniIssueViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainUI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainUI/MainUIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="141" column="65" lean-forward="true" selection-start-line="141" selection-start-column="65" selection-end-line="141" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>LibrarianXD</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LibrarianXD</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

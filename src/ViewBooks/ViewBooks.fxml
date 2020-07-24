@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="560.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewBooks.ViewBooksController">
+   <children>
+      <Region fx:id="region" layoutX="102.0" layoutY="20.0" prefHeight="65.0" prefWidth="656.0" style="-fx-background-color: dadada; -fx-background-radius: 45;" />
+      <JFXComboBox fx:id="searchOptions" focusColor="#212121" layoutX="207.0" layoutY="37.0" onAction="#hitSearchOption" prefHeight="25.0" prefWidth="190.0" promptText="Search Options" stylesheets="@ViewBooks.css">
+         <styleClass>
+            <String fx:value="JFXcombo-box-popup" />
+            <String fx:value="combo-box-popup" />
+            <String fx:value="combo-box-popup2" />
+            <String fx:value="combo-box-popup3" />
+         </styleClass>
+      </JFXComboBox>
+      <JFXTextField fx:id="searchText" focusColor="#212121" labelFloat="true" layoutX="418.0" layoutY="36.0" prefHeight="25.0" prefWidth="196.0" />
+      <JFXButton fx:id="search" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="632.0" layoutY="34.0" onAction="#search" prefHeight="25.0" prefWidth="25.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 5;" text="INSERT" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="SEARCH" size="20" />
+         </graphic>
+      </JFXButton>
+      <TableView fx:id="booksTable" editable="true" layoutX="27.0" layoutY="103.0" prefHeight="354.0" prefWidth="806.0" stylesheets="@ViewBooks.css">
+        <columns>
+          <TableColumn fx:id="iD" prefWidth="60.0" sortable="false" style="-fx-alignment: Center;" text="ID" />
+          <TableColumn fx:id="name" minWidth="8.0" prefWidth="213.0" text="Name" />
+            <TableColumn fx:id="edition" prefWidth="64.0" style="-fx-alignment: Center;" text="Edition" />
+            <TableColumn fx:id="language" prefWidth="119.0" text="Language" />
+            <TableColumn fx:id="writer" minWidth="0.0" prefWidth="158.0" text="Writer" />
+            <TableColumn fx:id="quantity" prefWidth="61.0" style="-fx-alignment: Center;" text="Quantity" />
+            <TableColumn fx:id="genre" prefWidth="129.0" style="-fx-alignment: Center;" text="Genre" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="delete" buttonType="RAISED" layoutX="142.0" layoutY="485.0" onAction="#deleteSelected" prefHeight="38.0" prefWidth="160.0" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="     DELETE " textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="CLOSE" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="update" buttonType="RAISED" layoutX="323.0" layoutY="486.0" onAction="#updateSelected" prefHeight="38.0" prefWidth="160.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="     UPDATE " textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="REFRESH" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="insert" buttonType="RAISED" layoutX="504.0" layoutY="485.0" onAction="#insertNewBook" prefHeight="38.0" prefWidth="160.0" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="     ADD " textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="PLUS_CIRCLE" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="reloader" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="684.0" layoutY="485.0" onAction="#reloadTable" prefHeight="38.0" prefWidth="38.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 50;" text="    Reload Table" textFill="#dadada">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="UNDO" size="20" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

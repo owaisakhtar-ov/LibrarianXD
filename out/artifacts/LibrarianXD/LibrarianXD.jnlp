@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LibrarianXD.jnlp">
+  <information>
+    <title>LibrarianXD</title>
+    <vendor>Unknown</vendor>
+    <description>LibrarianXD</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LibrarianXD.jar" size="147801146" download="eager" />
+    <jar href="Libraries\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="Libraries\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="Libraries\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="Libraries\sqljdbc42.jar" size="898868" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="MainUI.Main"  name="LibrarianXD" />
+  <update check="background"/>
+</jnlp>

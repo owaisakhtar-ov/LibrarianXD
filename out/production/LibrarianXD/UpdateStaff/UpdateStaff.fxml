@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="253.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UpdateStaff.UpdateStaffController">
+   <children>
+      <Label alignment="CENTER" layoutX="37.0" layoutY="22.0" prefHeight="27.0" prefWidth="208.0" text="Update Staff">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <JFXTextField fx:id="name" focusColor="#212121" labelFloat="true" layoutX="22.0" layoutY="62.0" prefHeight="25.0" prefWidth="248.0" promptText="Name" />
+      <JFXTextField fx:id="contact" focusColor="#212121" labelFloat="true" layoutX="22.0" layoutY="104.0" prefHeight="25.0" prefWidth="248.0" promptText="Contact">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </JFXTextField>
+      <JFXTextField fx:id="designation" focusColor="#212121" labelFloat="true" layoutX="22.0" layoutY="149.0" prefHeight="25.0" prefWidth="248.0" promptText="Designation" />
+      <JFXButton fx:id="update" buttonType="RAISED" graphicTextGap="0.0" layoutX="21.0" layoutY="198.0" onAction="#update" prefHeight="38.0" prefWidth="120.0" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="     UPDATE" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="UNDO" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="cancel" buttonType="RAISED" graphicTextGap="0.0" layoutX="152.0" layoutY="198.0" onAction="#cancel" prefHeight="38.0" prefWidth="120.0" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="     CANCEL" textFill="#dadada">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="CLOSE" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="minButton1" contentDisplay="GRAPHIC_ONLY" layoutX="254.0" layoutY="9.0" onAction="#minimize" prefHeight="27.0" prefWidth="27.0" ripplerFill="#dadada" style="-fx-background-color: #212121; -fx-background-radius: 20;" text="Minimize">
+         <graphic>
+            <FontAwesomeIconView disable="true" fill="#dadada" glyphName="MINUS_CIRCLE" size="14" />
+         </graphic>
+      </JFXButton>
+   </children>
+   <effect>
+      <InnerShadow blurType="TWO_PASS_BOX" />
+   </effect>
+</AnchorPane>
